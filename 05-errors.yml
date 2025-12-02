@@ -8,7 +8,7 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    # image: nginx
+    # image: nginxfsddh
     # imagepullbackoff error - image wrong address
   - name: almalinux
     image: almalinux:9
