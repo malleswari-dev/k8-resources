@@ -6,7 +6,7 @@ metadata:
     project: roboshop
     component: frontend
     environment: dev
-    purpose: load-balancer 
+    purpose: loadbalancer 
  # this labels are used to register this pod with services.   
 spec:
   containers:
