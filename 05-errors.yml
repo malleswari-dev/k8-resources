@@ -7,7 +7,10 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: nginxcsgfh
+    image: nginx
+    # image: nginx
+    # imagepullbackoff error - image wrong address
   - name: almalinux
     image: almalinux:9
-    command: ["sleep","1000"]
+    # command: ["sleep","1000"]
+    # crashloop backoff error - unable to start container
